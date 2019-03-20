@@ -10,7 +10,8 @@ int main()
 int res;
 int lots_of_threads;
 pthread_t a_thread[NUM_THREADS];
-void *thread_result; srand ( (insigned)time(NULL) );
+void *thread_result;
+srand ( (unsigned)time(NULL) );
 for (lots_of_threads = 0; lots_of_threads < NUM_THREADS;
 lots_of_threads++)
 {
